@@ -34,4 +34,15 @@ class Owner
     Dog.all.select{|dog|dog.owner == self}
   end
   
+  def buy_cat
+    Cat.new(cat, self)
+  end
+  
+  def buy_dog
+    Dog.new(dog, self)
+  end
+  
+  
+  end
+  
 end
