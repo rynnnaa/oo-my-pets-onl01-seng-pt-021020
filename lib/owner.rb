@@ -27,7 +27,7 @@ class Owner
   end
   
   def cats
-  
+    cat.name.owner
   end
   
 end
