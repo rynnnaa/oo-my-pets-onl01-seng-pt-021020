@@ -3,5 +3,6 @@ class Dog
   
   def initialize(name)
     @name
+    @owner = owner
   end
 end
