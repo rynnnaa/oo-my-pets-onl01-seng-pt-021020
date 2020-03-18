@@ -63,9 +63,6 @@ class Owner
   end
   
   def list_pets
-    pets = dogs + cats
-    pets.each do |pet|
-      return "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
-    end
+    return "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
 end
