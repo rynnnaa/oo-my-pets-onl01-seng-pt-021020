@@ -27,7 +27,7 @@ class Owner
   end
   
   def cats
-    cats.select |cat| cats
+    Cat.all.select |cat| cat.owner = self
   end
   
 end
